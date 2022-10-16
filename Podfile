@@ -1,5 +1,4 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '12.1'
 
 target 'Spotify' do
   use_frameworks!
@@ -7,5 +6,15 @@ target 'Spotify' do
   pod 'SDWebImage'
   pod 'Firebase/Analytics'
   pod 'Appirater'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'RxSwiftExt'
+  pod 'Moya/RxSwift'
+  pod 'Reusable'
+  pod 'Then'
+  pod 'SwiftLint'
+  pod 'Kingfisher'
+  pod 'ReactorKit'
 
 end
